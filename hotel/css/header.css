@@ -1,0 +1,18 @@
+header .header-warrper  {
+display: flex;
+justify-content: space-between;
+height: 50px;
+
+}
+header .header-warrper .content-header-1{
+font-size: 15px;
+font-style: italic;
+}
+header .header-warrper .content-header-2 span{
+	
+	font-weight: 400;
+}
+header .header-warrper .content-header-2{
+	display: flex;
+	justify-content: space-between;
+}
