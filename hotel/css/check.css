@@ -62,11 +62,55 @@
 	width: 15px;
 	position: absolute;
 	right: 2px;
-	top: 40%
+	top: 38%
 
 
 }
 .check .check-wraper .group input{
 	width: 100%;
 
+}
+.check .check-wraper .group1{
+	position: relative;
+	width: 15%
+}
+.check .check-wraper .group1 img{
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	right: 2px;
+	top: 38%;
+}
+.check .check-wraper .group1 input{
+	width: 100%;
+}
+.check .check-wraper .group2{
+	position: relative;
+	width: 15%
+}
+.check .check-wraper .group2 img{
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	right: 2px;
+	top: 38%;
+}
+.check .check-wraper .group2 input{
+	width: 100%;
+}
+.check .check-wraper .person1{
+	position: relative;
+	width: 15%;
+
+}
+.check .check-wraper .person1 img{
+height: 15px;
+width: 15px;
+position: absolute;
+right: 3px;
+top: 38%;
+
+}
+.check .check-wraper .person input{
+	width: 100%;
 }

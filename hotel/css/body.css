@@ -1,0 +1,11 @@
+.body .body-wraper {
+	display: flex;
+	justify-content: space-between;
+	height: 700px;
+	padding: 5px 15px 5px 15px;
+}
+.body .body-wraper .content-body-1{
+    font-weight: 500;
+    font-size: 25px;
+
+}
