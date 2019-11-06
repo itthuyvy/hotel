@@ -1,0 +1,72 @@
+.check .check-wraper{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 80px;
+	background-color: #e8e2e46e;
+	align-items: center;
+	padding: 0px 10px 0px 10px;
+}
+.check .check-wraper .email{
+	border-radius: 4px;
+	height: 40px;
+	width: 15%;
+	border: none;
+
+
+}
+.check .check-wraper .start-date{
+	border-radius: 4px;
+	height: 40px;
+	width: 12%;
+	border: none;
+}
+.check .check-wraper .end-date{
+	border-radius: 4px;
+	height: 40px;
+	width: 12%;
+	border: none;
+}
+.check .check-wraper .room{
+	border-radius: 4px;
+	height: 40px;
+	width: 13%
+}
+.check .check-wraper .person{
+	border-radius: 4px;
+	height: 40px;
+	width: 10%;
+	border: none;
+
+}
+.check .check-wraper .book-room{
+	border-radius: 4px;
+	height: 40px;
+	width: 10%;
+	background-color: orange;
+	color: white;
+
+
+}
+.check .check-wraper .book-room:hover{
+
+}
+.check .check-wraper .group{
+	position: relative;
+	width: 15%;
+
+
+}
+.check .check-wraper .group img{
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	right: 2px;
+	top: 40%
+
+
+}
+.check .check-wraper .group input{
+	width: 100%;
+
+}
