@@ -1,0 +1,60 @@
+.banner .banner-wraper{
+	height: 500px;
+	width: 100%;
+	background-image: url("../images/img1.jpg");
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: 100% 100%;
+	position: relative;
+
+}
+.banner .banner-wraper h1{
+	color: #793f3f;
+	background-color: white;
+	font-size: 25px;
+	padding: 5px 15px 5px 15px;
+
+	
+}
+.banner .banner-wraper .btn-next{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 80px;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: all 0.5s;
+	background-color: orange;
+	border: none;
+	border-radius: 4px;
+}
+.banner .banner-wraper .btn-pre{
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	width: 80px;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: all 0.5s;
+	background-color: orange;
+	border: none;
+	border-radius: 4px;
+}
+.banner .banner-wraper .btn-next:hover{
+	background-color: #a97319b3;
+	color: white;
+
+}
+.banner .banner-wraper .btn-pre:hover{
+	background-color: #a97319b3;
+	color: white;
+	
+}

@@ -1,0 +1,26 @@
+.menu .menu-wraper ul {
+	display: flex;
+	justify-content: space-between;
+    list-style: none;
+    font-weight: 600;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	border-top: 1.5px solid  #ebebeb;
+}
+.menu .menu-wraper {
+width: 40%;
+cursor: pointer;
+}
+.menu .menu-wraper ul li:hover{
+	color: white;
+	background-color: #793f3f;
+}
+.menu .menu-wraper ul li{
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	transition: all 0.5s;
+	border-radius: 4px;
+
+}
