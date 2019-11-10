@@ -1,0 +1,124 @@
+.body .body-wraper {
+    height: 2000px;
+    padding: 30px 100px;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    padding: 25px auto;
+}
+
+.body .body-wraper .content-body-1 {
+    margin: 2rem 0;
+}
+
+.body .body-wraper .content-body-1 h1 {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: orange;
+
+}
+
+.body .body-wraper .content-body-1 span {
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid orange;
+    margin: 0 auto;
+}
+
+.body .body-wraper .content-body-1 p {
+    text-align: center;
+    color: black;
+    margin: 15px auto 5px auto;
+}
+
+.body .body-wraper .content-body-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem auto 2rem auto;
+     border-top: 2px solid red;
+
+}
+
+.body .body-wraper .content-body-2 .item {
+    width: 30%;
+    min-height: 500px;
+    transition: all 0.5s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    cursor: pointer;
+    min-width: 300px;
+    max-width: 430px;
+}
+
+.body .body-wraper .content-body-2 .item.special {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.body .body-wraper .content-body-2 .item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.body .body-wraper .content-body-2 .item img {
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.body .body-wraper .content-body-2 .item h6 {
+    font-weight: 700;
+    color: #e86507;
+    margin-top: 1rem;
+}
+
+.body .body-wraper .content-body-2 .item p {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.body .body-wraper .content-body-2 .item .benifit {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.body .body-wraper .content-body-2 .item .book {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body .body-wraper .content-body-2 .item .benifit ul {
+    list-style: none;
+    width: 30%;
+}
+
+.body .body-wraper .content-body-2 .item .book span {
+    border-radius: 4px;
+    padding: 4px 12px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.body .body-wraper .content-body-2 .item .book span:hover {}
+
+.body .body-wraper .content-body-2 .item .book button {
+    background-color: #813f3f;
+    border: 1px solid #813f3f;
+    border-radius: 4px;
+    transition: all 0.5s;
+    color: white;
+
+}
+
+.body .body-wraper .content-body-2 .item .book button:hover {
+    padding: 4px 12px;
+    background: #e86507;
+    color: white;
+}

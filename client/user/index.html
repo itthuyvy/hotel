@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hotel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/banner.css">
+    <link rel="stylesheet" type="text/css" href="./css/check.css">
+    <link rel="stylesheet" type="text/css" href="./css/body.css">
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./css/picture.css">
+    <link rel="stylesheet" type="text/css" href="./css/service.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="menu fixed-top header-wraper">
+            <div class="content-header-1">
+                Chào mừng bạn đến với Four Seasons hotel!
+            </div>
+            <div class="menu-wraper">
+                <ul>
+                    <li><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="/blog">BLOG</a></li>
+                    <li><a href="#">PHÒNG</a></li>
+                    <li><a href="#">GIỚI THIỆU</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li><a href="#">THƯ VIỆN ẢNH</a></li>
+                </ul>
+            </div>
+            <div class="content-header-2">
+                <button class="btn-hotel-orange-grey">
+                    Đăng nhập/
+                    Đăng ký
+                </button>
+            </div>
+        </div>
+        <!-- banner  -->
+        <div class="banner">
+            <div class="banner-wraper" id="banner-wraper">
+                <h1>Đây là cách chúng tôi làm bạn cảm thấy thoải mái hơn ở nhà.</h1>
+                <button class="btn-pre" onclick="pre()">❮<button>
+                        <button class="btn-next" onclick="next()">❯</button>
+            </div>
+            <!-- choose		 -->
+        </div>
+        <div class="check">
+            <div class="check-wraper">
+                <div class="group">
+                    <input class="email" type="text" name="email" placeholder="Nhập email của bạn">
+                    <img src="./images/img3.png">
+                </div>
+                <div class="group1">
+                    <input class="start-date" type="text" name="start-date" placeholder="Ngày nhận phòng">
+                    <img src="./images/img4.png">
+                </div>
+                <div class="group2">
+                    <input class="end-date" type="text" name="end-date" placeholder="Ngày trả phòng">
+                    <img src="./images/img4.png">
+                </div>
+                <select class="room">
+                    <option selected disabled>
+                        Chọn phòng
+                    </option>
+                    <option value="Phòng đơn">
+                        Phòng đơn
+                    </option>
+                    <option value="Phòng đôi">
+                        Phòng đôi
+                    </option>
+                    <option value="Phòng vip">
+                        Phòng vip
+                    </option>
+                </select>
+                <div class="person1">
+                    <input class="person_number" type="number" name="person">
+                    <img src="./images/img6.png">
+                </div>
+                <button class="book-room">
+                    Đặt phòng
+                </button>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="body">
+            <div class="body-wraper">
+                <!-- top  -->
+                <div class="content-body-1">
+                    <h1> PHÒNG NỔI BẬT </h1>
+                    <p> Hãy tìm phòng bạn thích, hãy cảm nhận như nhà của bạn </p>
+                    <span></span>
+                </div>
+                <!-- content -->
+                <div class="content-body-2">
+                    <div class="item special">
+                        <img src="./images/anh1.jpg">
+                        <h6> Phòng đôi DBL 001 hiện đại ngắm cảnh biển</h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 900.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="item special">
+                        <img src="./images/anh2.jpg">
+                        <h6>Phòng đôi DBL 002 hiện đại ngắm cảnh biển </h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 950.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="item special">
+                        <img src="./images/anh3.jpg">
+                        <h6>Phòng đôi DBL 003 hiện đại ngắm cảnh biển </h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 960.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- title -->
+                <div class="content-body-1">
+                    <h1> PHÒNG PHỔ BIẾN </h1>
+                    <p> Hãy tìm phòng bạn thích, hãy cảm nhận như nhà của bạn </p>
+                    <span></span>
+                </div>
+                <!-- content -->
+                <div class="content-body-2">
+                    <div class="item">
+                        <img src="./images/anh4.jpg">
+                        <h6> Phòng đôi DBL 001 hiện đại ngắm cảnh biển</h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 1.000.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/anh5.jpg">
+                        <h6>Phòng đôi DBL 002 hiện đại ngắm cảnh biển </h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 950.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/anh6.jpg">
+                        <h6>Phòng đôi DBL 003 hiện đại ngắm cảnh biển </h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 900.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- content -->
+                <div class="content-body-2">
+                    <div class="item">
+                        <img src="./images/anh4.jpg">
+                        <h6> Phòng đôi DBL 001 hiện đại ngắm cảnh biển</h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 1.000.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/anh5.jpg">
+                        <h6>Phòng đôi DBL 002 hiện đại ngắm cảnh biển </h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 950.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./images/anh6.jpg">
+                        <h6>Phòng đôi DBL 003 hiện đại ngắm cảnh biển </h6>
+                        <p>
+                            Phòng hướng biển, với cảnh quan tuyệt đẹp bạn sẽ tận hưởng đầy đủ kì nghỉ với các dịch vụ hoàn hảo. Buổi sáng có thể ngắm bình minh, buổi chiều có thể ngắm hoàng hôn, ngoài ra khách đặt phòng còn có thể miễn phí ăn sáng, miễn phí spa 2 ngày...
+                        </p>
+                        <div class="benifit">
+                            <ul>
+                                <li>
+                                    Miễn phí giặt ủi
+                                </li>
+                                <li>
+                                    Giường đôi
+                                </li>
+                                <li>
+                                    Có wifi miễn phí
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    Hướng biển
+                                </li>
+                                <li>
+                                    Có máy lạnh
+                                </li>
+                                <li>
+                                    Có ban công
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="book">
+                            <span>Giá 900.000</span>
+                            <button class="btn btn-orange">Xem chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- galerry -->
+        <div class="picture">
+            <div class="picture-wraper">
+                <h1> TUYỂN TẬP HÌNH ẢNH </h1>
+                <p> Hãy tìm phòng bạn thích, hãy cảm nhận như nhà của bạn </p>
+                <span></span>
+                <div class="picture-content">
+                    <img onclick="view(this)" src="./images/anh1.jpg">
+                    <img onclick="view(this)" src="./images/anh2.jpg">
+                    <img onclick="view(this)" src="./images/anh3.jpg">
+                    <img onclick="view(this)" src="./images/anh4.jpg">
+                    <img onclick="view(this)" src="./images/anh5.jpg">
+                    <img onclick="view(this)" src="./images/anh6.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-wraper">
+                <div class="item">
+                    <img src="./images/1.png">
+                    <h6> Thực đơn </h6>
+                    <p> Đồ uống và thực đơn tại Four Seasons hotel luôn đa dạng, phù hợp với mọi lứa tuổi, làm hài lòng với những vị khách khó tính nhất.</p>
+                </div>
+                <div class="item">
+                    <img src="./images/img4.png">
+                    <h6> Tận hưởng trước- Thanh toán sau</h6>
+                    <p> Bạn không cần phải đặt cọc trước, cứ ở và tận hưởng thoải mái tại Four Seasons hotel rồi thanh toán sau.</p>
+                </div>
+                <div class="item">
+                    <img src="./images/img2.png">
+                    <h6> Nhà hàng luôn phục vụ 24h </h6>
+                    <p> Nhà hàng của Four Seasons luôn phục vụ ăn uống 24h/ngày, với nhiều món ăn Việt- Âu- Á được chế biến bởi những đầu bếp có tay nghề cao.</p>
+                </div>
+                <div class="item">
+                    <img src="./images/2.png">
+                    <h6> Dịch vụ spa </h6>
+                    <p> Bạn mệt mỏi sau một ngày tham quan du lịch, bạn có thể dùng dịch vụ massage để làm cho bạn thoải mái hơn.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="content ptb-small mlr-big font-weight-300">
+                    <div class="first">
+                        Four Seasons hotel!
+                    </div>
+                    <div class="second">
+                        <div class="element element-1">
+                            <ul class="text-13">
+                                <li><a href="page/lienhe/lienhe.html">Thông tin Four Seasons hotel</a></li>
+                            </ul>
+                        </div>
+                        <div class="element element-2">
+                            <ul class="text-13">
+                                <li><a>Chính sách bảo mật</a></li>
+                                <li<a>Chính sách thanh toán
+                                </li<a>
+                            </ul>
+                        </div>
+                        <div class="element element-3">
+                            <ul class="text-13">
+                                <li>
+                                    Liên hệ</li>
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <!--    <img src="./assets/image/icon/fb.png" alst="icon_social">
+                            <img src="./assets/image/icon/twiter.png" alst="icon_social">
+                            <img src="./assets/image/icon/instagram.png" alst="icon_social"> -->
+                        </div>
+                    </div>
+                    <div class="thirst">
+                        <div class="element element-1">
+                            <ul class="text-13">
+                                <li>@2019 Four Seasons hotel</li>
+                            </ul>
+                        </div>
+                        <div class="element element-3">
+                            <ul class="text-13">
+                                <li>Dịch vụ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="model-galeery" onclick="hide()" class="model-galeery">
+            <div id="image-galery">
+            </div>
+        </div>
+        <script type="text/javascript" src="./js/view-image.js"></script>
+        <script type="text/javascript" src="./js/slide.js"></script>
+</body>
+
+</html>

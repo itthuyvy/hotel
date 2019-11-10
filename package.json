@@ -1,0 +1,9 @@
+{
+    "name": "SERVE",
+    "version": "0.0.1",
+    "private": "true",
+    "dependencies": {
+        "express": "*",
+        "firebase-admin": "^8.0.0"
+    }
+}

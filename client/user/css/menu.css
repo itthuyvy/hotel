@@ -1,0 +1,39 @@
+.menu .menu-wraper ul {
+	display: flex;
+	justify-content: space-between;
+    list-style: none;
+    font-weight: 600;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	background: white;
+}
+.menu .menu-wraper {
+	width: 50%;
+}
+.menu .menu-wraper ul li{
+	min-width: 100px;
+	padding:5px 2px;
+	text-align: center;
+
+}
+.menu .menu-wraper ul li:hover{
+	min-width: 100px;
+	background-color: #793f3f;
+}
+.menu .menu-wraper ul li a{
+	font-size: 15px;
+	transition: all 0.5s;
+	border-radius: 4px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+	text-align: center;
+	width: 100%;
+}
+
+.menu .menu-wraper ul li:hover a{
+	color: white;
+}
